@@ -1,0 +1,373 @@
+/* 
+Project Name: MechanicalAmoeba
+Client: Tom Grek
+Author: Eric Tsoi
+*/
+
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+
+
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px;
+/* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0;
+/* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+
+
+
+
+#container{
+  width: 100%;
+	background-color:orange;
+}
+
+.hidden-h1{
+  font-size: 2em;
+  margin: -0.5em 0;
+/******************************************
+/* comment in when publishing                  
+/*******************************************/
+  /*text-indent: -999em;*/
+/******************************************
+/* comment in when publishing                    
+/*******************************************/
+  float: left;
+}
+
+
+header{
+	width: 100%;
+  height: 4.5em;
+  padding-top: 1em;
+  background-color: red;
+}
+
+nav {
+}
+
+nav ul {
+color: #bdbdbd;
+}
+
+nav li {
+  width: 12%;
+  display: inline-block;
+  text-align: center;
+  float: right;
+}
+
+/******************************************
+/* BODY                  
+/*******************************************/
+
+
+.row{
+		background-color: green;
+}
+
+.span12{
+  width: 100%;
+  margin: auto;
+  padding: 0 1% 0 1%;
+  background-color: limegreen;
+}
+
+.span10{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 0 1% 0 1%;
+  background-color: chocolate;
+}
+
+
+.half{
+  width: 48%;
+  max-height: 100%;
+  float: left;
+  margin: 0 1% 0 1%;
+  background-color: violet;
+  position: relative;
+  bottom: 0;
+  border: 0.2em solid black;
+}
+
+#main-img img{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+
+/******************************************
+/* main-img comment in if full bar needed               
+/*******************************************/
+
+/*#main-text{
+  background-color: purple;
+  width: 100%;
+  padding: 20% 5% 5% 5%;
+  margin: auto;
+}
+
+
+#main-img{
+  display: none;
+}*/
+
+/******************************************
+/* main-img comment in if full bar needed               
+/*******************************************/
+
+
+
+
+
+
+/******************************************
+/* email banner            
+/*******************************************/
+
+
+
+.has-padding {
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+
+.max-width {
+max-width: 62rem;
+margin: auto;
+position: relative;
+}
+
+
+
+
+
+#email-banner{
+  background-color: pink;
+}
+
+#email-banner form {
+margin-top: 1.25rem;
+margin-bottom: 1.25rem;
+display: inline-block;
+
+}
+
+#email-banner input[type="email"] {
+background: #fff;
+border: 1px solid #e2e2e2;
+
+}
+
+#email-banner input[type="button"] {
+padding: 0.5rem;
+}
+
+
+#email-banner input[type="email"] {
+width: 60%;
+margin-right: 2%;
+float: left;
+margin-bottom: 0;
+}
+
+
+#email-banner input[type="button"] {
+margin-top: 0;
+float: left;
+width: 35%;
+}
+
+
+
+
+input[type="email"], textarea {
+background-color: #f2f2f2;
+font-family: "News706BT-RomanC",Georgia;
+font-size: 1.35rem;
+outline: none;
+float: left;
+border: none;
+color: #222;
+display: block;
+min-width: 7.4em;
+
+margin: 0 0 1rem 0;
+padding: 1rem;
+width: 50%;
+-webkit-transition: color 0.15s ease-in-out;
+-moz-transition: color 0.15s ease-in-out;
+-o-transition: color 0.15s ease-in-out;
+transition: color 0.15s ease-in-out;
+}
+
+.button {
+display: inline-block;
+float: left;
+height: 3.6rem;
+min-width: 8rem;
+padding: 0.8rem 1.5rem;
+border: none;
+border-bottom: 3px solid #c20027;
+background: #f03;
+color: #fff;
+font-family: "PFDinTextCompProBold",Impact,Arial;
+font-size: 1.35rem;
+text-transform: uppercase;
+text-align: center;
+-webkit-font-smoothing: antialiased;
+-webkit-appearance: none;
+cursor: pointer;
+}
+/******************************************
+/* email banner            
+/*******************************************/
+
+
+
+#third{
+  float: left;
+  width: 31.3%;
+  height: auto;
+  padding: 1em;
+  margin: 0% 1% 0% 1%;
+  background-color: gray;
+}
+
+
+#third span{
+  font-size: 5em;
+  display: block;
+}
+
+#third img{
+  width: 100%;
+  margin:auto;
+}
+
+
+
+
+ /******************************************
+/* RECENT CLIENTS                  
+/*******************************************/   
+
+.col-25{
+  width: 23%;
+  height: 200px;
+  float: left;
+  margin: 0 1% 0 1%;
+  background-color: violet;
+}
+
+
+
+.div-line{
+  width: 80%;
+  background-color: blue;
+  margin: auto;
+}
+
+
+
+.center {
+  text-align: center;
+  color: white;
+}
+
+/******************************************
+/* blurb            
+/*******************************************/
+
+
+#testimonial{
+  text-align: center;
+}
+
+#twitter{
+  text-align: center;
+}
+
+
+#twitter a{
+  font-family: "chaparral-pro-i6","chaparral-pro",Georgia,serif;
+  font-style: italic;
+  font-weight: 600;  
+  text-decoration: none;
+}
+
+#social{
+  margin: auto;
+}
+
+
+/******************************************
+/* footer                   
+/*******************************************/
+
+footer{
+  background-color: yellow;
+}
+
+#social{
+  background-color: blue;
+  margin-left: 40%;
+}
+
+
+#social span{
+  float: left;
+  font-size: 2em;
+  display: block;
+}
+
+footer a{
+  font-family: "chaparral-pro-i6","chaparral-pro",Georgia,serif;
+  font-style: italic;
+  font-weight: 600;  
+  text-decoration: none;
+}
+
+
+
+
+
